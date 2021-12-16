@@ -2,7 +2,15 @@
     margin: 0px;
 }
 
+body{
+    background-color: rgb(252, 248, 244);
+}
+
 main {
-    background-color: rgb(253, 197, 123);
-    height: auto;
+    
+    max-height: 100%;
+}
+
+.titulo-home {
+    font-weight: bold;
 }

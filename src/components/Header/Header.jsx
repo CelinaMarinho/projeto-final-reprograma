@@ -1,11 +1,11 @@
-import LogoImage from '../../assets/AdobeStock_grafismo.jpeg'
+import LogoImage from '../../assets/linha_grafismo.png'
 import './header.styles.css'
 
 const Header = () => {
   return (
     <header className="header">
       <div>
-        <img className="teste2"
+        <img className="grafismo"
           src={LogoImage} 
           alt='ilustração de grafismo indígena' 
         />

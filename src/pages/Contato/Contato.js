@@ -1,11 +1,13 @@
 import Menu from '../../components/Menu/Menu'
-//import Footer from '../../components/Footer/Footer'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
 
 
 const Contato = () => {
     return (
         <>
             <Menu />
+            <Header />
             <section>
                 <h1>Contato</h1>
                 <form>
@@ -43,6 +45,7 @@ const Contato = () => {
                 </form>
                 
             </section>
+            <Footer />
             
             
         </>

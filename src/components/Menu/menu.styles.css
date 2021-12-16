@@ -7,19 +7,21 @@
 
 .navbar {
     display: flex;
+    
     justify-content: space-evenly;
     overflow: hidden;
-    background-color:rgba(168, 2, 2, .90);
-    font-size: 24px;
+    background-color:rgb(10, 10, 10);
+    font-size: 28px;
     font-weight: bold;
     padding: 20px;
     
 }
 
 .navbar a {
-    color:rgb(10, 10, 10);
+    color: #fff;
     text-align: center;
     text-decoration: none;
+    align-items: flex-end;
 }
 
 .link:hover{
