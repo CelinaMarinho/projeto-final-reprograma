@@ -11,7 +11,9 @@ const Home = () => {
             <Header />
             <main>
                 <section className='card-introducao' id="povos-indigenas"> 
-                    <h1 className="titulo-home">Artistas e seus territórios</h1>
+                <h1 className="titulo">
+                    <span className="span-destaque">Sejam bem-vindos</span>
+                </h1>
                     
                     <div class="container-texto"> 
                         <div class="container-texto-paragrafos">

@@ -2,33 +2,31 @@
     margin: 0px;
 }
 
-#titulo {
+.titulo {
     display: flex;
     justify-content: center;
     margin: 30px 40px;
-    font-size: 40px;
-    
+    font-size: 25px;
 }
-
-.pankararu {
-    color: black;
-    font-size: 20px;
-    margin: 50px;
-    background-color: blueviolet;
-    
-
-}
-
 
 .span-destaque {
     font-weight: bold;
     font-style: italic;
 }
 
-.teste {
+.pankararu {
+    color: black;
+    font-size: 20px;
+    margin: 50px;
+    /*background-color: blueviolet;*/
+    
+
+}
+
+.img__artista {
     
     margin-top: 30px;
     border: 5px solid;
     border-radius: 400px;
-    width: 360px;
+    width: 200px;
 }

@@ -11,6 +11,13 @@ main {
     max-height: 100%;
 }
 
-.titulo-home {
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin: 30px 40px;
+    font-size: 25px;
+}
+.span-destaque {
     font-weight: bold;
+    font-style: italic;
 }

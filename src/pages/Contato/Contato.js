@@ -1,6 +1,7 @@
 import Menu from '../../components/Menu/Menu'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
+import './contato.styles.css'
 
 
 const Contato = () => {
@@ -9,7 +10,7 @@ const Contato = () => {
             <Menu />
             <Header />
             <section>
-                <h1>Contato</h1>
+            <h1 className="titulo"><span className="span-destaque">Que tal ampliar essa experiência?</span></h1>
                 <form>
                     <div className="campo-form">
                         <label for="nome">Nome completo:</label>
@@ -35,9 +36,8 @@ const Contato = () => {
 
                         <label for="indicacoes">Qual indicação você gostaria de receber?</label>
                         <select name="indicacoes-visitantes" id="indicacoes">
-                            <option value="artigos">Artigos</option>
-                            <option value="cursos">Cursos</option>
-                            <option value="livros">Livros</option>
+                            <option value="cursos">Notícias sobre exposições</option>
+                            <option value="livros">Notícias sobre festividades</option>
                             <option value="pefis-para-seguir">Perfis para seguir </option>
                         </select>    
 

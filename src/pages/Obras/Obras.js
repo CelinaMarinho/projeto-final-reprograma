@@ -1,28 +1,31 @@
-/*import Menu from '../../components/Menu/Menu'
+import Menu from '../../components/Menu/Menu'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import { useState, useEffect } from 'react'
 
 
-const Obras = () => {
+function Obras () {
 
-    const [obrasArtes, setobrasArtes] = useState([])
+    const [obrasArtes, setObrasArtes] = useState([])
     const [busca, setBusca] = useState('')                           
     const [filtro, setFiltro] = useState([])
 
     useEffect(() => {
         fetch("https://my-json-server.typicode.com/CelinaMarinho/imagens-arte-indigena/db")
             .then(response => response.json())
-            .then(data => setobrasArtes(data))
+            .then(data => setObrasArtes(data))
     }, [])
 
-    useEffect(()=> {
+   /* useEffect(() => {
         setFiltro(                                                    
-            obrasArtes.filter(obra =>  {
+            obrasArtes.images.filter(obra =>  {
                 return obra.type.includes(busca)
             })
         )
-    }, [obrasArtes, busca])  
+    }, [obrasArtes, busca])*/
+
+    //console.log(obrasArtes)
+    console.log(obrasArtes.images)
 
 
     return (
@@ -30,18 +33,26 @@ const Obras = () => {
             <Menu />
             <Header />
             <section>
-                <h1>Produtos</h1>
+            <h1 className="titulo">
+                    <span className="span-destaque">Obras</span>
+                </h1>
                 <div className="obras-arte">
                     <input 
                     placeholder="Insira o tipo da obra" 
                     onChange={e => {setBusca(e.target.value)}} 
                     />
 
-                    {filtro.map(item =>        
-                        <div key={item.id}>
+                    {obrasArtes.images?.map(item =>        
+                        <div key={item?.id}>
+                            {console.log(item.image)}
                             <ul>
                                 <li>
-                                    <h2>{item.name}</h2>
+                                    <h2>{item?.title}</h2>
+                                    <img 
+                                        src={item?.image}
+
+                                        alt={item?.title}
+                                    />
                                 </li>
                             </ul>
                         </div>
@@ -57,7 +68,11 @@ const Obras = () => {
 
 }
 
-export default Obras*/
+export default Obras
 
+
+
+            
+//"https://my-json-server.typicode.com/CelinaMarinho/imagens-arte-indigena/imagem"
 
 
