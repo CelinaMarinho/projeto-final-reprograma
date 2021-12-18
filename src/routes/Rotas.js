@@ -13,7 +13,7 @@ function Rotas() {
         <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/artistas' component={Artistas} />
-            <Route path='/obras' component={Obras} />            
+            <Route path='/obras' component={Obras} />       
             <Route path='/contato' component={Contato} />
         </Switch>
     </BrowserRouter>

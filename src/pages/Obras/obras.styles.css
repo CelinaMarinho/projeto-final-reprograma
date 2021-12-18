@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin: 30px 40px;
+    font-size: 25px;
+}
+
+.span-destaque {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container__esculturas /*ul li*/ {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 9% 0% 0% 9%;
+    justify-content: center;
+}
+
+.obras-arte {
+    width: 300px;
+    height: 400px;
+    margin: 10px
+
+}
+
+.card__esculturas{
+    /*display: flex;
+    flex-wrap: wrap;*/
+    flex-direction: column;
+    width: 400px; 
+    margin:5%;
+   
+}
+
+.esculturas__imagem {
+    /*display: flex;*/
+    width: 200px;
+    height: 200px;
+    border-radius: 95px;
+}
+
+.esculturas h2 {
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+

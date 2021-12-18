@@ -1,13 +1,18 @@
 import Menu from '../../components/Menu/Menu'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
+import './obras.styles.css'
+
 import { useState, useEffect } from 'react'
+
+//import { BsArrowReturnRight } from 'react-icons/bs'
+
 
 
 function Obras () {
 
     const [obrasArtes, setObrasArtes] = useState([])
-    const [busca, setBusca] = useState('')                           
+    const [busca, setBusca] = useState('')                         
     const [filtro, setFiltro] = useState([])
 
     useEffect(() => {
@@ -16,7 +21,7 @@ function Obras () {
             .then(data => setObrasArtes(data))
     }, [])
 
-   /* useEffect(() => {
+    /*useEffect(() => {
         setFiltro(                                                    
             obrasArtes.images.filter(obra =>  {
                 return obra.type.includes(busca)
@@ -25,7 +30,7 @@ function Obras () {
     }, [obrasArtes, busca])*/
 
     //console.log(obrasArtes)
-    console.log(obrasArtes.images)
+    console.log(obrasArtes.indigena)
 
 
     return (
@@ -36,23 +41,26 @@ function Obras () {
             <h1 className="titulo">
                     <span className="span-destaque">Obras</span>
                 </h1>
-                <div className="obras-arte">
-                    <input 
+                <div className='container__esculturas'>
+                    {/* <input 
                     placeholder="Insira o tipo da obra" 
                     onChange={e => {setBusca(e.target.value)}} 
-                    />
+                    /> */}
 
-                    {obrasArtes.images?.map(item =>        
-                        <div key={item?.id}>
+                    {obrasArtes.indigena?.map(item =>        
+                        <div className="obras-arte" key={item?.id}>
                             {console.log(item.image)}
-                            <ul>
+                            <ul className='esculturas'>
                                 <li>
-                                    <h2>{item?.title}</h2>
-                                    <img 
-                                        src={item?.image}
+                                    <div className='card__esculturas'>
+                                        <h2>{item?.title}</h2>
+                                        <img className="esculturas__imagem"
+                                            src={item?.image}
 
-                                        alt={item?.title}
-                                    />
+                                            alt={item?.title}
+                                        />
+                                    </div>
+
                                 </li>
                             </ul>
                         </div>
@@ -69,10 +77,3 @@ function Obras () {
 }
 
 export default Obras
-
-
-
-            
-//"https://my-json-server.typicode.com/CelinaMarinho/imagens-arte-indigena/imagem"
-
-

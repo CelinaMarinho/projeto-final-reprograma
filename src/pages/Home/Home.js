@@ -12,15 +12,17 @@ const Home = () => {
             <main>
                 <section className='card-introducao' id="povos-indigenas"> 
                 <h1 className="titulo">
-                    <span className="span-destaque">Sejam bem-vindos</span>
+                    <span className="span-destaque">Sejam bem-vindos!</span>
                 </h1>
                     
                     <div class="container-texto"> 
                         <div class="container-texto-paragrafos">
-                            <p>não tive dúvidas: tentei novamente! Independente do resultado, eu iria seguir tentando, até alcançar o meu objetivo. Hoje, posso dizer que estou vivendo um sonho! As professoras, as monitoras, a facilitadora, todas são incríveis. E minhas colegas de curso, o que dizer dessa potência de mulheres?! Todas essas mulheres estão me fazendo viver um sonho único!</p>
-                            <p>Loreispsum </p>
-                            <p>Loreispsum</p>
-                            <p>Loreispsum</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquid ad, recusandae laborum sapiente ut inventore nihil dolore vel necessitatibus deserunt fugiat, numquam possimus. Quis, odio. Consequatur unde earum officiis</p>
+                            <h2 className='subtitulos'>Pankararu</h2>
+                            <p>O povo Pankararu é um grupo indígena brasileiro que habita as proximidades do médio rio São Francisco, nos limites dos municípios de Tacaratu e Petrolândia, ambos no estado de Pernambuco, e o Norte da Serra do Ramalho, no município de Bom Jesus da Lapa, no estado da Bahia (fonte: Wikipedia).</p>
+                            <h2 className='subtitulos'>Xukuru</h2>
+                            <p>Os Xukurus são um grupo indígena brasileiro, uma ramificação dos Tarairiús que habita a Serra do Ororubá, no município brasileiro de Pesqueira (Poção), estado de Pernambuco. Habitam a Terra Indígena Xukuru. Autodenominam-se Xukuru do Ororubá para distinguir-se do povo Xukuru-Cariri de Alagoas</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquid ad, recusandae laborum sapiente ut inventore nihil dolore vel necessitatibus deserunt fugiat, numquam possimus. Quis, odio. Consequatur unde earum officiis</p>
                         </div>
                         
                     </div>

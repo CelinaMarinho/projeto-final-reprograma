@@ -8,6 +8,8 @@
 .navbar {
     display: flex;    
     justify-content: space-between;
+    flex-wrap: wrap;
+    /*align-items: center;*/
     overflow: hidden;
     background-color:rgb(10, 10, 10);
     font-size: 20px;
@@ -19,10 +21,12 @@
 }
 
 .navbar a {
+    display: flex;
     color: #fff;
     text-align: center;
     text-decoration: none;
     align-items: flex-end;
+    margin-left: 20px;
 }
 
 .menu__rotas {
