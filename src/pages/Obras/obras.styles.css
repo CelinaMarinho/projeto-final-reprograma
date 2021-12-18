@@ -7,6 +7,7 @@
     justify-content: center;
     margin: 30px 40px;
     font-size: 25px;
+    color:rgb(180, 0, 0)
 }
 
 .span-destaque {
@@ -41,14 +42,21 @@
     /*display: flex;*/
     width: 200px;
     height: 200px;
-    border-radius: 95px;
+    border-radius: 100px;
+    border: 4px dashed rgb(65, 0, 0);
+    
 }
 
+
+
 .esculturas h2 {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
     width: 200px;
     text-align: center;
     margin: 10px;
+
 }
 
 

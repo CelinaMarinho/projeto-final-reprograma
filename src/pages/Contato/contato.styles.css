@@ -7,6 +7,7 @@
     justify-content: center;
     margin: 30px 40px;
     font-size: 25px;
+    color:rgb(180, 0, 0)
 }
 .span-destaque {
     font-weight: bold;
@@ -28,4 +29,29 @@ input textarea select {
     border: 2px solid black;
     border-radius: 4px;
 
+}
+
+p {
+    margin: 20px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(172, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.5s all;
+    padding: 6px;
+}
+
+a:hover{
+    background-color:rgb(214, 197, 197);
+    
+}
+
+.span-contato {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(109, 2, 2)
 }
