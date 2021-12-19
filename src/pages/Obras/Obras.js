@@ -42,7 +42,8 @@ function Obras () {
                 <h1 className="titulo">
                         <span className="span-destaque">Obras</span>
                     </h1>
-                    <p className='p__obras'>Aqui vocês vão encontrar as obras dos nossos diversos artistas. As obras estão categorizadas em esculturas, pinturas e ilustrações.</p>
+                    <p className='p__obras'>Aqui vocês vão encontrar as obras dos nossos diversos artistas.<br>
+                    </br> As obras estão categorizadas em esculturas, pinturas e ilustrações.</p>
                     <div className='container__esculturas'>
                         {/*
                         placeholder="Insira o tipo da obra" 

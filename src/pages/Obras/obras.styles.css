@@ -10,12 +10,17 @@
     color:rgb(180, 0, 0)
 }
 
-.span-destaque {
-    font-weight: bold;
-    font-style: italic;
+.p__obras{
+    text-align: center;
+    margin: auto;
+    width: 70%;
 }
 
-.container__esculturas /*ul li*/ {
+.span-destaque {
+    font-weight: bold;
+}
+
+.container__esculturas {
     display: flex;
     flex-wrap: wrap;
     padding: 9% 0% 0% 9%;
@@ -35,7 +40,6 @@
     flex-direction: column;
     width: 400px; 
     margin:5%;
-   
 }
 
 .esculturas__imagem {
@@ -43,8 +47,7 @@
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    border: 4px dashed rgb(65, 0, 0);
-    
+    border: 4px solid rgb(65, 0, 0);
 }
 
 
@@ -52,11 +55,9 @@
 .esculturas h2 {
     font-size: 18px;
     font-weight: bold;
-    font-style: italic;
     width: 200px;
     text-align: center;
     margin: 10px;
-
 }
 
 

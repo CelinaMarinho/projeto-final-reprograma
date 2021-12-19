@@ -4,8 +4,6 @@
 
 body{
     background-color:#fff;
-   
-    
 }
 
 main {
@@ -13,7 +11,6 @@ main {
     justify-content: center;
     width: 100%;
     max-height: 100%;
-    
 }
 
 .card-introducao{
@@ -29,24 +26,16 @@ main {
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
-    
-}
-
-.container-texto{
-    width: 50%;
-  
 }
 
 .container-texto-paragrafos {
+    width: 70%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1;
     justify-content: center;
     text-align: justify;
 }
-
-
-
-
 
 .titulo {
     display: flex;
@@ -56,32 +45,28 @@ main {
     color:rgb(180, 0, 0)
 }
 
+.povos{
+    background-color: rgba(109, 2, 2, 0.774);
+    margin: 20px auto;
+    width: 80%;
+}
+
 .span__home {
     color: rgb(180, 0, 0);
-    font-style: italic;
     font-weight: bold;
 }
 
-
-
 h2{
-
     margin: 30px;
     font-weight: 500;
     font-weight: bold;
-    font-style: italic;
-    color: rgb(109, 2, 2)
-
+    color: #fff;
 }
-
 
 .span-destaque {
     font-weight: bold;
-    font-style: italic;
 }
 
 .subtitulos {
     font-size: 20px;
-    font-style: italic;
-    
 }
