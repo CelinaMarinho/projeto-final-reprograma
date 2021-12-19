@@ -1,11 +1,15 @@
 * {
     margin: 0px;
 }
+.card-introducao {
+    margin: 0px;
+}
 
 .titulo {
     display: flex;
     justify-content: center;
-    margin: 30px 40px;
+    margin-top: 0;
+    /*margin: 30px 40px;*/
     font-size: 25px;
     color:rgb(180, 0, 0)
 }
@@ -16,18 +20,29 @@
 }
 
 .pankararu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     color: black;
     font-size: 20px;
-    margin: 50px;
-    /*background-color: blueviolet;*/
+    /*margin: 50px;
+    background-color: blueviolet;*/
     
 
 }
 
+.pankararu img {
+    flex-direction: column;
+
+}
+
 .img__artista {
-    
+    display: inline; 
+    text-align: center;    
     margin-top: 30px;
-    border: 5px solid;
+    border: 3px solid rgb(65, 0, 0);
+    box-shadow: 0 0 15px rgb(32, 0, 0);
     border-radius: 400px;
-    width: 200px;
+    width: 210px;
+    align-items: center;
 }

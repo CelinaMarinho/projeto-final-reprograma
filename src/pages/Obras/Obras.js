@@ -23,10 +23,10 @@ function Obras () {
 
     /*useEffect(() => {
         setFiltro(                                                    
-            obrasArtes.images.filter(obra =>  {
+            obrasArtes.filter((obra) =>  {
                 return obra.type.includes(busca)
             })
-        )
+        );
     }, [obrasArtes, busca])*/
 
     //console.log(obrasArtes)
@@ -38,15 +38,16 @@ function Obras () {
             <Menu />
             <Header />
             <main>
-                <section>
+                <section className='card-introducao'>
                 <h1 className="titulo">
                         <span className="span-destaque">Obras</span>
                     </h1>
+                    <p className='p__obras'>Aqui vocês vão encontrar as obras dos nossos diversos artistas. As obras estão categorizadas em esculturas, pinturas e ilustrações.</p>
                     <div className='container__esculturas'>
-                        {/* <input 
+                        {/*
                         placeholder="Insira o tipo da obra" 
                         onChange={e => {setBusca(e.target.value)}} 
-                        /> */}
+                        */}
 
                         {obrasArtes.indigena?.map(item =>        
                             <div className="obras-arte" key={item?.id}>

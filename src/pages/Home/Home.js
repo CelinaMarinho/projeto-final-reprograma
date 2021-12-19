@@ -12,13 +12,16 @@ const Home = () => {
             <main>
                 <section className='card-introducao' id="povos-indigenas"> 
                     <h1 className="titulo">
-                        <span className="span-destaque">Gonego Tiana!</span>
+                        <span className="span-destaque">Sejam bem-vindes!</span>
                     </h1>
-                    <p className='p__home'>Sejam bem-vindos, em língua Xukuru</p>
+                    
                         
                         <div class="container-texto"> 
                             <div class="container-texto-paragrafos">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquid ad, recusandae laborum sapiente ut inventore nihil dolore vel necessitatibus deserunt fugiat, numquam possimus. Quis, odio. Consequatur unde earum officiis</p>
+                                <p><span className='span__home'>Gonengo Tiana!</span> Essa saudação, seja bem-vindo, em língua Xukuru, reflete o meu desejo a todas as pessoas que visitam esse site. Este projeto é parte integrante das atividades da turma 13 de front-end da Reprograma,<span className='span__home'> do projeto Todas em Tech.</span></p>
+
+                                <p> A escolha dessa temática surgiu como forma de homenagear e valorizar a produção de artistas de origem indígena. Os indígenas, os povos originários desse país, infelizmente, ainda são sub-representados em várias esferas da vida política e social. Esses povos têm e sempre tiveram voz, assim como todos os outros que são minorizados no Brasil. A arte é uma destas formas de expressão e, através dela, podemos conhecer um pouco sobre a identidade de cada artista, assim como traços do seu povo e da sua ancestralidade em suas obras.</p>
+                                
                                 <h2 className='subtitulos'>Pankararu</h2>
                                 <p>O povo Pankararu é um grupo indígena brasileiro que habita as proximidades do médio rio São Francisco, nos limites dos municípios de Tacaratu e Petrolândia, ambos no estado de Pernambuco, e o Norte da Serra do Ramalho, no município de Bom Jesus da Lapa, no estado da Bahia (fonte: Wikipedia).</p>
                                 <h2 className='subtitulos'>Xukuru</h2>

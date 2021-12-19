@@ -3,7 +3,9 @@
 }
 
 body{
-    background-color: rgb(252, 248, 244);
+    background-color:#fff;
+   
+    
 }
 
 main {
@@ -12,9 +14,8 @@ main {
     width: 100%;
     max-height: 100%;
     
-
-    
 }
+
 .card-introducao{
     width: 100%;
     padding: 2rem 2rem;
@@ -22,16 +23,30 @@ main {
     background-color: rgb(252, 248, 244);
     font-size: 20px;
     margin: 50px;
-}
-
-.bg {
-    background-image: url("../../assets/diario_kripo_julianaxukuru.jpeg");
+    background-color:rgb(199, 71, 71) ;
+    background-image: url("../../assets/transparencia_1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    opacity: 0.6;
+    background-attachment: fixed; 
+    
 }
+
+.container-texto{
+    width: 50%;
+  
+}
+
+.container-texto-paragrafos {
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: center;
+    text-align: justify;
+}
+
+
+
+
 
 .titulo {
     display: flex;
@@ -41,14 +56,13 @@ main {
     color:rgb(180, 0, 0)
 }
 
-.p__home {
-    display: flex;
-    justify-content: center;    
-    font-weight: 500;
-    font-weight: bold;
+.span__home {
+    color: rgb(180, 0, 0);
     font-style: italic;
-    color:rgb(180, 0, 0)
+    font-weight: bold;
 }
+
+
 
 h2{
 

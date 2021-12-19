@@ -14,18 +14,30 @@
     font-style: italic;
 }
 
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 50%;
+    border: none;
+    background-color: darkgrey;
+    justify-content: center;
+}
 .campo-form {
     max-width: 100%;
+    justify-content: center;
 }
 
 
 label {
     display: block;
+    margin: 30px 0 10px 0;
+    
 }
 
 input textarea select {
-    font-size: 1.2rem;
-    padding: 10px;
+    font-size: 18px;
+    padding: 15px;
     border: 2px solid black;
     border-radius: 4px;
 
@@ -43,6 +55,7 @@ a {
     border-radius: 10px;
     transition: 0.5s all;
     padding: 6px;
+    
 }
 
 a:hover{
@@ -55,3 +68,17 @@ a:hover{
     font-style: italic;
     color: rgb(109, 2, 2)
 }
+
+button {
+    display: block;
+    margin: 30px 0 10px 0;
+    padding: 10px 20px;
+    background-color:rgb(172, 0, 0);;
+    color: rgb(14, 0, 0);
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+
+}
+
