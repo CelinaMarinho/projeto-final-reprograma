@@ -32,8 +32,6 @@
     width: 300px;
     height: 400px;
     margin: 10px;
-    
-
 }
 
 .card__esculturas{
@@ -42,7 +40,6 @@
     flex-direction: column;
     width: 400px; 
     margin:5%;
-    
 }
 
 .esculturas__imagem {

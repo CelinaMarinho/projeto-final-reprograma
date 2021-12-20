@@ -27,7 +27,7 @@ const Artistas = () => {
 
                         <p>Seu trabalho se desdobra a partir de uma busca por memorias e identidades , partindo de uma poética da “transparência” que problematiza pesos e levezas envolvidos na romantização sobre a figura da mulher, ampliando este estudo para o contexto da mulher indígena a partir de seu próprio corpo e contexto entre/com as outras mulheres de sua etnia.</p>
 
-                        <p>Conheça mais sobre a artista <a href='https://www.instagram.com/artistajulianaxukuru/' target="_blank" rel="noreferrer">clicando aqui</a></p>
+                        <a className='botao__artista' href='https://www.instagram.com/artistajulianaxukuru/' target="_blank" rel="noreferrer">Conheça a artista</a>  
                     </div>
 
                     <div className="container__artistas">
@@ -35,11 +35,9 @@ const Artistas = () => {
                         <p className="paragrafo-1"><span className="span-destaque">Leonardo Silva (Fykyá Pankararu)</span>, Indígena LGBTQIA+ de 22 anos de idade, pertencente ao povo Pankararu do sertão de Pernambuco, é ativista das causas Indígenas, artista visual, cantador e compositor, em suas obras busca desconstruir visões equivocadas sobre o ser índigena contemporâneo.</p>
                         
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquid ad, recusandae laborum sapiente ut inventore nihil dolore vel necessitatibus deserunt fugiat, numquam possimus. Quis, odio. Consequatur unde earum officiis.</p>
+                        <p>A inspiração para a construção de suas obras vem da tradição Pankararu, da sua vivência enquanto indígena Pankararu, como também de aspectos culturais da sociedade que reverberam e movem o interior do artista.</p>                         
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquid ad, recusandae laborum sapiente ut inventore nihil dolore vel necessitatibus deserunt fugiat, numquam possimus. Quis, odio. Consequatur unde earum officiis.</p>   
-
-                        <p>Conheça mais sobre o artista <a href='https://www.instagram.com/fykyapankararu/' target="_blank" rel="noreferrer">clicando aqui</a></p>                 
+                        <a className='botao__artista' href='https://www.instagram.com/fykyapankararu/' target="_blank" rel="noreferrer">Conheça o artista</a>              
                     </div>
 
                        
@@ -48,7 +46,7 @@ const Artistas = () => {
                     
                 </section>
             </main>
-
+            <Header />
             <Footer />
             
             

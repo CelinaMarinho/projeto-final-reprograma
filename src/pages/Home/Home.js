@@ -31,7 +31,7 @@ const Home = () => {
                         <div class="container-texto-paragrafos">
                             <p><span className='span__home'>Gonengo Tiana!</span> Essa saudação, que significa seja bem-vindo, em língua Xukuru, 
                             reflete o meu desejo a todas as pessoas que visitam esse site. Este projeto é parte integrante das atividades da 
-                            turma 13 de front-end da Reprograma,<span className='span__home'> do projeto Todas em Tech.</span></p>
+                            turma 13 de front-end da Reprograma,<span>do projeto Todas em Tech.</span></p>
                             <p> A escolha dessa temática surgiu como forma de homenagear e valorizar a produção de artistas de origem 
                             indígena. Os indígenas, os povos originários desse país, infelizmente, ainda são sub-representados 
                             em várias esferas da vida política e social. Esses povos têm e sempre tiveram voz, assim como todos 
@@ -39,6 +39,8 @@ const Home = () => {
                             podemos conhecer um pouco sobre a identidade de cada artista, assim como traços do seu povo e da sua 
                             ancestralidade em suas obras.
                             </p>
+
+                            <p>Este espaço surgiu como forma de reverenciar e ajudar a divulgar as diversas manifestações artísticas produzidas por artistas indígenas do estado de Pernambuco. Artistas estes que estão em estágio inicial e/ou ainda não têm as redes de divulgação do seu trabalho estruturadas, bem como apresentar informações como a localização e os costumes dos povos aos quais estes artistas pertencem.</p>
                         </div>
 
                     <div class="container-texto">
@@ -46,14 +48,14 @@ const Home = () => {
 
                                 <div className='povos'>
                                     <h2 className='h2__povos'>Atikum</h2>
-                                    <p>O povo Pankararu é um grupo indígena brasileiro que habita as proximidades do médio rio São Francisco, 
+                                    {/* <p>O povo Pankararu é um grupo indígena brasileiro que habita as proximidades do médio rio São Francisco,  
                                     nos limites dos municípios de Tacaratu e Petrolândia, ambos no estado de Pernambuco, e o Norte da Serra 
                                     do Ramalho, no município de Bom Jesus da Lapa, no estado da Bahia (fonte: Wikipedia)
-                                    </p>
+                                    </p>*/}
                                 </div>
 
                                 <div className='povos'>
-                                    <h2 className='h2__povos'>Fulni-ô</h2>
+                                    <h2 className='h2__povos' id="etnias">Fulni-ô</h2>
                                 </div>
 
                                 <div className='povos'>
@@ -65,15 +67,15 @@ const Home = () => {
                                 </div>
 
                                 <div className='povos'>
-                                    <h2 className='h2__povos'>Pankará</h2>       
+                                    <h2 className='h2__povos' id="etnia1">Pankará</h2>       
                                 </div>                     
                                 
                                 <div className='povos'>
                                     <h2 className='h2__povos'>Pankararu</h2>
-                                    <p>O povo Pankararu é um grupo indígena brasileiro que habita as proximidades do médio rio São Francisco, 
+                                    {/* <p>O povo Pankararu é um grupo indígena brasileiro que habita as proximidades do médio rio São Francisco,  
                                     nos limites dos municípios de Tacaratu e Petrolândia, ambos no estado de Pernambuco, e o Norte da Serra 
                                     do Ramalho, no município de Bom Jesus da Lapa, no estado da Bahia (fonte: Wikipedia)
-                                    </p>
+                                    </p>*/}
                                 </div>
 
                                 <div className='povos'>
@@ -81,7 +83,7 @@ const Home = () => {
                                 </div>
 
                                 <div className='povos'>
-                                    <h2 className='h2__povos'>Truká</h2>
+                                    <h2 className='h2__povos' id="etnia2">Truká</h2>
                                 </div>
 
                                 <div className='povos'>
@@ -89,10 +91,10 @@ const Home = () => {
                                 </div>
 
                                 <div className='povos'>
-                                    <h2 className='h2__povos'>Xukuru</h2>
-                                    <p>Os Xukurus são um grupo indígena brasileiro, uma ramificação dos Tarairiús que habita a Serra do Ororubá, 
+                                    <h2 className='h2__povos' id="etnia3">Xukuru</h2>
+                                    {/* <p>Os Xukurus são um grupo indígena brasileiro, uma ramificação dos Tarairiús que habita a Serra do Ororubá,  
                                     no município brasileiro de Pesqueira (Poção), estado de Pernambuco. Habitam a Terra Indígena Xukuru. 
-                                    Autodenominam-se Xukuru do Ororubá para distinguir-se do povo Xukuru-Cariri de Alagoas.</p>
+                                    Autodenominam-se Xukuru do Ororubá para distinguir-se do povo Xukuru-Cariri de Alagoas.</p>*/}
                                     
                                 </div>
                             
@@ -100,6 +102,7 @@ const Home = () => {
                     </div>
                 </section>
             </main>
+            <Header />
             <Footer />
         </>
     )

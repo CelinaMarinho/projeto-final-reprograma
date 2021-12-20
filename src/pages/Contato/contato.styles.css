@@ -21,8 +21,33 @@
     font-weight: bold;
 }
 
-.span__contato {
+.span__arte {
     font-weight: bolder;
+    color:rgb(180, 0, 0);
+}
+
+p {
+    margin: 20px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(172, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.5s all;
+    padding: 6px;
+}
+
+a:hover{
+    background-color:rgb(214, 197, 197);
+    
+}
+
+.span-contato {
+    font-weight: bold;
+    color:rgb(180, 0, 0);
 }
 
 .formulario {
@@ -61,35 +86,11 @@ select{
     padding: 10px;
 }
 
-p {
-    margin: 20px;
-    font-weight: 500;
-}
-
-a {
-    text-decoration: none;
-    color:rgb(172, 0, 0);
-    font-weight: bold;
-    border-radius: 10px;
-    transition: 0.5s all;
-    padding: 6px;
-}
-
-a:hover{
-    background-color:rgb(214, 197, 197);
-    
-}
-
-.span-contato {
-    font-weight: bold;
-    color: rgb(109, 2, 2)
-}
-
 button {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color:rgb(172, 0, 0);
+    background-color:rgb(179, 178, 177);
     color: rgb(14, 0, 0);
     font-weight: bolder;
     font-size: 15px;
@@ -98,4 +99,11 @@ button {
     border-radius: 4px;
     
 }
+
+button:hover {
+    background-color:rgb(172, 0, 0);
+
+}
+
+
 

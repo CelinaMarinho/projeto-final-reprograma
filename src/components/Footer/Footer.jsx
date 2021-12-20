@@ -12,10 +12,10 @@ const Footer = () =>{
                 <span>Feito com  <BsFillSuitHeartFill size={12} color="white"/>  por Celina Marinho, aluna Reprograma - 2021
                 </span> 
 
-                <a className="footer__link" href='https://www.linkedin.com/in/celina-marinho/' target="_blank" rel="noreferrer" ><BsLinkedin size={28} color="white" />
+                <a className="footer__link" href='https://www.linkedin.com/in/celina-marinho/' target="_blank" rel="noreferrer" ><BsLinkedin size={18} color="white" />
                 </a>          
                
-                <a className="footer__link" href='https://github.com/CelinaMarinho' target="_blank" rel="noreferrer" ><BsGithub size={28} color="white" />
+                <a className="footer__link" href='https://github.com/CelinaMarinho' target="_blank" rel="noreferrer" ><BsGithub size={18} color="white" />
                 </a>      
 
                     
