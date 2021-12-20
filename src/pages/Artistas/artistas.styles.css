@@ -18,25 +18,23 @@
     font-weight: bold;
 }
 
-.pankararu {
-    display: flex;
+.container__artistas {
+    width: 70%;
+    margin: 0 auto;
+    /*display: flex;
     flex-wrap: wrap;
+    /*grid-template-columns: 1;*/
     justify-content: center;
-    color: black;
-    font-size: 20px;
+    text-align: justify;
     /*margin: 50px;
     background-color: blueviolet;*/
     
 
-}
-
-.pankararu img {
-    flex-direction: column;
-
-}
+}   
 
 .img__artista {
-    display: inline; 
+    
+    justify-content: center;
     text-align: center;    
     margin-top: 30px;
     border: 4px solid rgb(65, 0, 0);
